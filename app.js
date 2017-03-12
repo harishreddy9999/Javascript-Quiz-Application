@@ -13,7 +13,7 @@ function populate(argument) {
 		for (var i = 0; i < choices.length; i++) {
 			var element = document.getElementById("choice" + i);
 			element.innerHTML = choices[i];
-		guess("btn" + i, choices[i]);
+			guess("btn" + i, choices[i]);
 			}
 			showProgress();
 		}
