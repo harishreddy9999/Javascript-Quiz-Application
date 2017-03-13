@@ -4,6 +4,10 @@
 	<meta charset="utf-8">
 	<title>Javascript Quiz</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://code.highcharts.com/highcharts.js"></script>
+
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+
 </head>
 <body>
 	<div class="grid">
@@ -18,10 +22,12 @@
 				<button id="btn3"><span id="choice3"></span></button>
 			</div>
 			<hr style="margin-top : 20px">
+
 			<footer>
 				<p id="progress">Question x of y</p>
 			</footer>
 		</div>
+					<div id="container" style="min-width: 200px; height: 300px; margin: 0 auto"></div>
 	</div>
 	<script src="quiz_scores.js"></script>
 	<script src="questions.js"></script>
